@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<!-- /CODING/WebWorks/simple_blog -->
+
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Axit Landing</title>
+    <meta name="Author" content="Dmitry Scherenkov" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" type="text/css" href="css/less.css">
+    <!-- endbuild -->
+
+    <!-- build:js js/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/main.js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- endbuild -->
+
+    <!--[if lt IE 9]>
+       <script>
+          document.createElement('header');
+          document.createElement('nav');
+          document.createElement('section');
+          document.createElement('article');
+          document.createElement('aside');
+          document.createElement('footer');
+       </script>
+    <![endif]-->
+    
+    <!--[if IE]>
+<style>
+    .actual-form table {
+            .block-pricing-container-inner-content {
+          display: none;
+        }
+    }
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid navbar-container">
+            <nav class="navbar-top">
+                <a href="#" class="logo-a"></a>
+                <ul class="visible-lg visible-md">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#" class="last-a">Contact</a></li>
+                </ul>
+                <div class="nav-alt-btn visible-sm visible-xs"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </nav>
+        </div>
+        <div class="container-fluid header-container">
+            <div class="container-fluid header-container-inner">
+                <div class="row">
+                    <div class="col-md-6 header-container-inner__left">
+                        <div class="header-container-inner__logo-big"></div>
+                        <p>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</p>
+                        <div class="dash"></div>
+                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                        <a href="#" class="download-btn">Download</a>
+
+                    </div>
+                    <div class="col-md-6 header-container-inner__right">
+                        <div class="header-form-container">
+                            <div class="header-form-container__header">Try Your <span class="txt-orange">FREE</span> Trial Today</div>
+                            <form action="" class="header-form" name="h-form">
+                                <input type="text" name="name" class="header-form__input" placeholder="Name" id="hf-name" maxlength="30">
+                                <input type="email" name="email" class="header-form__input" placeholder="Email" id="hf-email" maxlength="30">
+                                <input type="password" name="password" class="header-form__input" placeholder="Password" id="hf-password">
+                                <button name="submit" class="header-form__submit">Get Started</button>
+                            </form>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid header-line-container">
+            <div class="container-fluid header-line-container-inner">
+                <div class="row">
+                    <div class="col-lg-4 header-line-container-inner-left">
+                        <h1>Social Media</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                    </div>
+                    <div class="col-lg-8 header-line-container-inner-right">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-stumbleupon" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+    <content>
+        <!-- Блок 1 -->
+        <div class="container-fluid block-1-container">
+            <div class="container-fluid block-1-container-inner">
+                <div class="row">
+                    <div class="col-md-2 block-1-container-inner-left">
+                        <ul class="tabs">
+                            <li data-panelNum="panel1" class="active">Tab 1</li>
+                            <li data-panelNum="panel2">Tab 2</li>
+                            <li data-panelNum="panel3">Tab 3</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10 block-1-container-inner-right">
+                        <div id="panel1" class="tabpanel active">
+                            <h1>Tabs with soft transitioning effect.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                            <a href="#" class="download-btn-orange">Download</a>
+                        </div>
+                        <div id="panel2" class="tabpanel">
+                            <h1>Second tab</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                        </div>
+                        <div id="panel3" class="tabpanel">
+                            <h1>Third tab</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок 2 -->
+        <div class="container-fluid block-2-container">
+            <div class="container-fluid block-2-container-inner">
+                <div class="row">
+                    <div class="col-md-7 block-2-container-inner-left">
+                        <a href="#" class="img-a"><img src="img/block_2_pic.png"></a>
+                    </div>
+                    <div class="col-md-5 block-2-container-inner-right">
+                        <h1>Sub list section</h1>
+                        <div class="dash-orange"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                        <div class="block-2__list-block">
+                            <h2>Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+
+                        </div>
+                        <div class="block-2__list-block-2">
+                            <h2>Title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок картинок -->
+        <div class="container-fluid block-img-container">
+            <div class="container-fluid block-img-container-inner">
+                <div class="row">
+                    <div class="col-md-6 block-img-container-inner-left">
+                        <h1>Standard Picture Section</h1>
+                        <div class="dash-orange"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+                            <br>
+                            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+                    </div>
+                    <div class="col-md-6 block-img-container-inner-right">
+                        <a href="#" class="img-a"><img src="img/block_3_pic.png"></a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок фич -->
+        <div class="container-fluid block-features-container">
+            <div class="container-fluid block-features-container-inner">
+                <div class="row">
+                    <div class="col-lg-12 block-features-container-inner-content">
+                        <h1 class="centered">WHY THIS IS AWESOME</h1>
+                        <div class="dash-orange"></div>
+                        <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="row">
+                            <div class="col-lg-4 features-block">
+                                <div class="features-block__icon"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                                <h1>Thoughtful Design</h1>
+                                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                            </div>
+                            <div class="col-lg-4 features-block">
+                                <div class="features-block__icon"><i class="fa fa-keyboard-o" aria-hidden="true"></i></div>
+                                <h1>Well Crafted</h1>
+                                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                            </div>
+                            <div class="col-lg-4 features-block">
+                                <div class="features-block__icon"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+                                <h1>Easy to Customize</h1>
+                                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок расценок -->
+        <div class="container-fluid block-pricing-container">
+            <div class="container-fluid block-pricing-container-inner">
+                <div class="row">
+                    <div class="col-lg-12 block-pricing-container-inner-content">
+                        <h1 class="centered">PRICING OPTIONS</h1>
+                        <div class="dash-orange"></div>
+                        <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <div class="row pricing-block-wrapper">
+                            <div class="pricing-block">
+                                <div class="pricing-block__header">
+                                    Basic
+                                </div>
+                                <div class="pricing-block__price">
+                                    <span class="dollar-sign">$</span>
+                                    <span class="price-number">0</span>
+                                </div>
+                                <div class="pricing-block__details">
+                                    Free for Life
+                                </div>
+                                <div class="pricing-block__popular"></div>
+                                <ul>
+                                    <li>1 Gb of space</li>
+                                    <li>10 gb of bandwidth</li>
+                                    <li>3 websites</li>
+                                    <li>Basic Customization</li>
+                                    <li>wordpress integration</li>
+                                    <li>email support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-block">
+                                <div class="pricing-block__header">
+                                    Professional
+                                </div>
+                                <div class="pricing-block__price">
+                                    <span class="dollar-sign">$</span>
+                                    <span class="price-number">19</span>
+                                </div>
+                                <div class="pricing-block__details">
+                                    Monthly Payment
+                                </div>
+                                <div class="pricing-block__popular"></div>
+                                <ul>
+                                    <li>5 Gb of space</li>
+                                    <li>50 gb of bandwidth</li>
+                                    <li>12 websites</li>
+                                    <li>Advanced Customization</li>
+                                    <li>wordpress integration</li>
+                                    <li>email support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-block">
+                                <div class="pricing-block__header">
+                                    Enterprise
+                                </div>
+                                <div class="pricing-block__price">
+                                    <span class="dollar-sign">$</span>
+                                    <span class="price-number">70</span>
+                                </div>
+                                <div class="pricing-block__details">
+                                    Monthly Payment
+                                </div>
+                                <div class="pricing-block__popular"></div>
+                                <ul>
+                                    <li>Unlimited space</li>
+                                    <li>Unlimited bandwidth</li>
+                                    <li>100 websites</li>
+                                    <li>Basic Customization</li>
+                                    <li>wordpress integration</li>
+                                    <li>24/7 Customer Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок отзывов -->
+        <div class="container-fluid block-customers-container">
+            <div class="container-fluid block-customers-container-inner">
+                <div class="row">
+                    <div class="col-lg-12 block-customers-container-inner-content">
+                        <h1 class="centered">WHAT OUR CUSTOMERS ARE SAYING</h1>
+                        <div class="dash-orange"></div>
+                        <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="row customers-block-wrapper">
+                            <div class="testimonial-block">
+                                <div class="testimonial-block__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                    <div class="testimonial-block__bg"></div>
+                                </div>
+                                <div class="testimonial-block__person">
+                                    <div class="testimonial-block__portrait"></div>
+                                    <div class="testimonial-block__person-info">
+                                        <h1 class="h-name">Jeremy H.</h1>Manager
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="testimonial-block">
+                                <div class="testimonial-block__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                    <div class="testimonial-block__bg"></div>
+                                </div>
+                                <div class="testimonial-block__person">
+                                    <div class="testimonial-block__portrait"></div>
+                                    <div class="testimonial-block__person-info">
+                                        <h1 class="h-name">John S.</h1>Freelancer
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="testimonial-block">
+                                <div class="testimonial-block__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                                    <div class="testimonial-block__bg"></div>
+                                </div>
+                                <div class="testimonial-block__person">
+                                    <div class="testimonial-block__portrait"></div>
+                                    <div class="testimonial-block__person-info">
+                                        <h1 class="h-name">Susan W.</h1>Photographer
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок универсальный -->
+        <div class="container-fluid block-custom-container">
+            <div class="container-fluid block-custom-container-inner">
+                <div class="row">
+                    <div class="col-lg-12 block-custom-container-inner-content">
+                        <h1 class="centered">STYLISH AXURE DESIGN</h1>
+                        <div class="dash"></div>
+                        <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+                        <a href="#" class="download-btn">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок контактов -->
+        <div class="container-fluid block-contact-container">
+            <div class="container-fluid block-contact-container-inner">
+                <div class="row">
+                    <div class="col-lg-12 block-contact-container-inner-content">
+                        <h1 class="centered">CONTACT US</h1>
+                        <div class="dash-orange"></div>
+                        <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <form action="" class="contact-form" name="c-form">
+                            <div class="contact-form__left">
+                                <input type="text" name="name" class="contact-form__input" placeholder="Name" id="cf-name" maxlength="30">
+                                <input type="email" name="email" class="contact-form__input" placeholder="Email" id="cf-email" maxlength="30">
+                                <input type="text" name="subject" class="contact-form__input" placeholder="Subject" id="cf-subject">
+                            </div>
+                            <div class="contact-form__right">
+                                <textarea name="message" class="contact-form__input" placeholder="Message" id="cf-message"></textarea>
+                            </div>
+                            <div class="clear"></div>
+
+                            <button name="submit" class="contact-form__submit">Send Message</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container-fluid block-footer-container">
+            <div class="row">
+                <div class="col-lg-12 social-panel">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-stumbleupon" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 copyr">&copy; 2015 Axure Themes</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подвал -->
+    <nav class="navbar-alt">
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#" class="last-a">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
